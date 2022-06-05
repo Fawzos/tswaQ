@@ -11,3 +11,5 @@
 5. Create a backend folder and build an express app
 
 6. Install Axios and fetch data from backend
+
+7. Replace useState with useReducer to handle complex state and get access to previous state
