@@ -9,3 +9,5 @@
 4. Added Routes (HomeScreen Route) and (ProductScreen Route)
 
 5. Create a backend folder and build an express app
+
+6. Install Axios and fetch data from backend
