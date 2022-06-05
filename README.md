@@ -13,3 +13,5 @@
 6. Install Axios and fetch data from backend
 
 7. Replace useState with useReducer to handle complex state and get access to previous state
+
+8. Add React Bootstrap to the application
