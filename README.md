@@ -8,4 +8,4 @@
 
 4. Added Routes (HomeScreen Route) and (ProductScreen Route)
 
-5. Create a backend folder build an express app
+5. Create a backend folder and build an express app
