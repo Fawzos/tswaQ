@@ -5,4 +5,7 @@
 1. Create React App
 2. Create Git Repository
 3. List Products
-4. Create a backend folder build an express app
+
+4. Added Routes (HomeScreen Route) and (ProductScreen Route)
+
+5. Create a backend folder build an express app
