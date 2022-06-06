@@ -21,3 +21,6 @@
 10. Create Single Product Screen,
     Create an API to fetch a single product,
     and update title of the page by react-helmet-async
+
+11. Create LoadingBox and MessageBox Components,
+    Handle error with getError function
