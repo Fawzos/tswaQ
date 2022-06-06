@@ -6,6 +6,7 @@ import axios from 'axios';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import Product from '../components/Product';
+import { Helmet } from 'react-helmet-async';
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -21,7 +22,6 @@ const reducer = (state, action) => {
 };
 
 function HomeScreen() {
-  // const [products, setProducts] = useState([]);
   const [{ loading, error, products }, dispatch] = useReducer(reducer, {
     products: [],
     loading: true,
@@ -36,13 +36,14 @@ function HomeScreen() {
       } catch (e) {
         dispatch({ type: 'FETCH_FAIL', payload: e.message });
       }
-
-      // setProducts(result.data);
     };
     fetchData();
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>tswaQ</title>
+      </Helmet>
       <h1>Feature products</h1>
       <div className="products">
         {loading ? (

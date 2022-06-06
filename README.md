@@ -17,3 +17,7 @@
 8. Add React Bootstrap to the application
 
 9. Add Font Awesome Library cdn and create Product component
+
+10. Create Single Product Screen,
+    Create an API to fetch a single product,
+    and update title of the page by react-helmet-async
