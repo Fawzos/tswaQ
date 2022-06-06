@@ -15,3 +15,5 @@
 7. Replace useState with useReducer to handle complex state and get access to previous state
 
 8. Add React Bootstrap to the application
+
+9. Add Font Awesome Library cdn and create Product component
