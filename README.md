@@ -24,3 +24,5 @@
 
 11. Create LoadingBox and MessageBox Components,
     Handle error with getError function
+
+12. Create Context and handle Add to cart
